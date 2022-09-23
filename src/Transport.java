@@ -1,9 +1,8 @@
 public abstract class Transport {
-    public String modelName;
-    public int wheelsCount;
+    private String modelName;
+    private int wheelsCount;
 
     public Transport(String modelName, int wheelsCount) {
-        super();
 
     }
     public abstract void updateTyre();
