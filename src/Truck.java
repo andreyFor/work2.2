@@ -1,6 +1,6 @@
 public class Truck extends Transport{
 
-    public Truck(String modelName, int wheelsCount, String modelName1, int wheelsCount1) {
+    public Truck(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
 
     }

@@ -1,11 +1,8 @@
 public class Car extends Transport{
-    public String modelName;
-    public int wheelsCount;
 
-    public Car(String modelName, int wheelsCount, String modelName1, int wheelsCount1) {
+    public Car(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
-        this.modelName = modelName1;
-        this.wheelsCount = wheelsCount1;
+
     }
 
     public void updateTyre() {
